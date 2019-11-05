@@ -1,0 +1,60 @@
+/* style.css */
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    color: var(--color);
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+#me {
+    margin: auto;
+    border: 3px solid var(--color);
+    border-radius: 100%;
+    width: 15em;
+}
+
+#cat {
+    margin: auto;
+    border: 3px solid var(--color);
+    border-radius: 100%;
+    width: 10em;
+}
+
+.links, .hero {
+    margin: 1em auto 1em auto;
+    padding: 0px;
+}
+
+h1, p {
+    text-align: center;
+    background-color: var(--background-color);
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    padding: 1em 1em;
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: var(--background-color);
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1em 7em;
+    text-align: center;
+}
